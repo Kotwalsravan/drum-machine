@@ -1,0 +1,25 @@
+.app{
+  display:flex;
+  justify-content: center;
+  margin-top:33vh;
+}
+
+.drum-pads{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.drum-pad{
+  border:1px solid black;
+
+  width:6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:gray;
+  color:black;
+  font-size:2rem;
+  text-shadow: 2px 2px gold;
+
+}
